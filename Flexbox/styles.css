@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    outline:1px solid gold;
+    height: 3rem;
+}
+.container{
+    height: inherit;
+    display: flex;
+}
+.content{
+    outline:1px solid lime;
+    flex: 1;
+}
+.aside{
+    outline:1px solid magenta;
+    flex: 0 0 25%;
+}
+.footer{
+    outline: 1px solid violet;
+    margin-top: auto;
+    height: 6rem;
+}
+body{
+    display: flex;
+    height: 100vh;
+    flex-flow: column;
+    font-size: 16px;
+}
+.menu{
+    display: flex;
+   
+}
+.menu-item{
+    list-style: none;
+    flex: 1;
+    outline: 1px solid cyan;
+    line-height: 3rem;
+    text-align: center;
+    transition: flex .5s;
+}
+.menu-item:hover{
+    flex:8;
+}
