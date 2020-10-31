@@ -140,12 +140,10 @@ class Juego {
   }
   perdioElJuego(){
     swal('OHH!','Lo lamentamos ,PERDISTEEE','error').then(()=>{
-   
       this.eliminarEventosClick()
       this.inicializar()
     })
   }
-
 }
 
 function empezarJuego() {

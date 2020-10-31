@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="time.js"></script>
+
+<body>
+
+    
+    <!-- Header-->
+
+    <header>
+    <nav  id="header"  class="navbar navbar-expand-lg navbar-light bg-ligh cabecera">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo-infoautonomos.png" alt="">
+                
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Crónometro <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Historial</a>
+                </li>
+                <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle text-cat" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Configurar
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Perfil</a>
+                    <a class="dropdown-item" href="#">Cuenta</a>     
+                    <a class="dropdown-item" href="#">Cerrar sesión</a>          
+                </div>
+                </li>
+                
+            </ul>
+            
+            </div>
+    </div>
+      </nav>
+
+    </header>
+        <!-- Header-->
+
+
+        <!--Cuerpo principal -->
+
+
+        <div class="container-fluid">
+
+                <div class="row">
+
+                    <div class="col-md-12 col-lg-4 bloque1">
+                        <p>Hola Manuel,<br>
+                            ¡bienvenido!
+                        </p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+
+                        <div class="col text-center pt-2 pb-2 columna-medio">
+                            <img src="assets/pexels-matteo-badini-4343180.jpg" alt="imagen_perfil" class="rounded" width="230" height="230" >
+                            <div class="cronometro">
+                                    <span id="time">00:00:00</span>
+
+                            </div>
+
+                            <div class="pt-2 " >                           
+                                 <button type="button" id="btn-start" class="btn btn-fichar" value="Start"> FICHAR ENTRADA</button>
+                                 
+                            </div>
+                        </div>
+                        
+                
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        Historial
+                    </div>
+
+                </div>
+
+        
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!--Cuerpo principal -->
+
+
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="pb-4 pt-4">    
+
+        <div class="container">
+
+            <div class="row text-center">
+
+                <div class="col-12 col-lg">
+                    <a href="#">Preguntas frecuentes</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Contáctanos</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Prensa</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Términos y condiciones</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Privacidad</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+    <!-- Footer -->
+</body>
+</html>
