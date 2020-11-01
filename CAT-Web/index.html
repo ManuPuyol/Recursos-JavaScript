@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
+    
 </head>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="time.js"></script>
+
 
 <body>
 
@@ -31,10 +33,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="#">Crónometro <span class="sr-only">(current)</span></a>
+                <a class="nav-link ctm" href="#">Crónometro <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Historial</a>
+                <a class="nav-link ctm" href="#">Historial</a>
                 </li>
                 <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle text-cat" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -73,11 +75,10 @@
                     <div class="col-sm-12 col-md-12 col-lg-4">
 
                         <div class="col text-center pt-2 pb-2 columna-medio">
-                            <img src="assets/pexels-matteo-badini-4343180.jpg" alt="imagen_perfil" class="rounded" width="230" height="230" >
+                            <img src="assets/foto.jpg" alt="imagen_perfil" class="rounded" width="230" height="230" >
                             <div class="cronometro">
                                     <span id="time"></span>
                             </div>
-
                               
                             <div id="fecha"></div>
 
@@ -91,8 +92,42 @@
                         
                     </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        Historial
+                    <div class="col-sm-12 col-md-12 col-lg-3 offset-lg-1 bloque3">
+
+                        <div class="ul-lista">
+                            <ul>Domingo, 1 de Noviembre de 2020
+                                <li > Fichaje de entrada &emsp; &emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 03:42:09 PM</li>
+                                <li>Fichaje de salida &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  03:42:24 PM</li>
+                                <li>Fichaje de entrada &emsp; &emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 04:52:09 PM</li>
+                                <li>Fichaje de salida &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  05:42:24 PM</li>
+                            </ul>
+                            <ul>Lunes, 2 de Noviembre de 2020
+                                <li > Fichaje de entrada &emsp; &emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 03:42:09 PM</li>
+                                <li>Fichaje de salida &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  03:42:24 PM</li>
+                                <li>Fichaje de entrada &emsp; &emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 04:52:09 PM</li>
+                                <li>Fichaje de salida &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  05:42:24 PM</li>
+                            </ul>
+                            <ul>Martes, 3 de Noviembre de 2020
+                                <li > Fichaje de entrada &emsp; &emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 03:42:09 PM</li>
+                                <li>Fichaje de salida &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  03:42:24 PM</li>
+                                <li>Fichaje de entrada &emsp; &emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 04:52:09 PM</li>
+                                <li>Fichaje de salida &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  05:42:24 PM</li>
+                            </ul>
+                            <ul>Miercoles, 4 de Noviembre de 2020
+                                <li > Fichaje de entrada &emsp; &emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 03:42:09 PM</li>
+                                <li>Fichaje de salida &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  03:42:24 PM</li>
+                                <li>Fichaje de entrada &emsp; &emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 04:52:09 PM</li>
+                                <li>Fichaje de salida &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  05:42:24 PM</li>
+                            </ul>
+                            <ul>Jueves, 5 de Noviembre de 2020
+                                <li > Fichaje de entrada &emsp; &emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 03:42:09 PM</li>
+                                <li>Fichaje de salida &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  03:42:24 PM</li>
+                                <li>Fichaje de entrada &emsp; &emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 04:52:09 PM</li>
+                                <li>Fichaje de salida &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  05:42:24 PM</li>
+                            </ul>
+
+                        </div>
+
                     </div>
 
                 </div>

@@ -5,14 +5,18 @@ window.onload=()=>{
     fecha=document.getElementById("fecha");
     //btnStop = document.getElementById("btn-stop");
     event();
-
+ 
+    
+    
 
 
 }
+
 function event(){
     btnStart.addEventListener("click",start);
     fechaActual();
     write();
+
     //btnStop.addEventListener("click",stop);
 
 
@@ -127,3 +131,6 @@ function fechaActual(){
     //document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
 
 }
+
+
+
