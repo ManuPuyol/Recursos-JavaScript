@@ -32,7 +32,7 @@ width:100%;
     color: white;
 }
 
-.bloque1 p{
+.parrafo_principal{
     color:white;
     font-size: 40px;
     font-weight: 500;
@@ -92,6 +92,78 @@ width:100%;
     min-height: 100%;
     object-fit: cover;
 }
+.container-registro{
+
+    margin-top: 3%;
+}
+
+.form-group{
+    
+    font-size: 15px;
+    font-weight: 500;
+    color: #8aafe7;
+}
+h2{
+    margin-bottom: 40px;
+    color: white;
+}
+.form-control{
+    background-color: #001a41;
+    border:none;
+    
+}
+.form-control::placeholder{
+    color: white !important;
+}
+.form-control:focus{
+    background-color: #001a41;
+    color: white !important;
+}
+
+
+.btn-crearcuenta{
+    
+    font-weight:500;
+    background-color: #41e0e0;
+    font-weight: bold;
+    padding-top: 8px; 
+    padding-bottom: 8px;
+    width: 100%;
+}
+.btn-login{
+    margin-top: 5%;
+    font-weight:500;
+    background-color: #41e0e0;
+    font-weight: bold;
+    padding-top: 8px; 
+    padding-bottom: 8px;
+    width: 100%;
+}
+.p-registro p{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.p-login p{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.p-login a{
+    color: #39bdbd;
+}
+.p-login{
+    margin-top: 8%;
+}
+.p-registro a{
+    color: #39bdbd;
+}
+.p-registro{
+    margin-top: 8%;
+}
+.emote-login{
+    margin-top: 10% !important;
+}
 #time{
     color: white;
     font-weight: bold;
@@ -124,6 +196,34 @@ width:100%;
     
 }
 
+.texto-carta{
+  
+    text-align: left;
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: 450;
+}
+.titulo-carta{
+    color: white;
+    text-align: left;
+    font-size: 25px !important;
+}
+.card-body{
+    background-color: #003079;
+    
+}
+.card{
+    border-radius: 50%;
+    border:none;
+}
+
+
+.form-row{
+    font-size: 15px;
+    font-weight: 500;
+    color: #8aafe7;
+    margin-bottom: 10%;
+}
 
 @media (min-width: 0px) {
     .btn-fichar{
@@ -153,29 +253,33 @@ width:100%;
 
 @media (min-width: 0px) {
     .bloque1{
-        text-align: center;
+        text-align: center !important;
+        
     }
 }
 
 @media (min-width: 768px) {
         .bloque1{
-            text-align: center;
+            text-align: center !important;
+           
         }
 }
 
 @media (min-width: 992px) {
     .bloque1 {
-        text-align: left;
+        text-align: left !important;
         
     }
 }
 
 @media (min-width: 1200px) {
     .bloque1 {
-       text-align: left;
+       text-align: left !important;
+      
     }
 
 }
+
 
 
 
